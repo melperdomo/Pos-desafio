@@ -1,43 +1,37 @@
 <!DOCTYPE html>
-<html lang="pr-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Desafio POSTECH</title>
 </head>
 <body>
-    <div></div>
     <div>
         <h1>POSTECH-FULLSTACK</h1>
         <p>Desafio aula inaugural</p>
         <div>
             <h2>Informações do grupo</h2>
-            <form action="">
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <textarea name="" id=""></textarea>
-                </label>
+            <form id="meuFormulario">
+                <!-- Campos de nomes -->
+                <label><input type="text" placeholder="Nome 1" class="nome"></label><br>
+                <label><input type="text" placeholder="Nome 2" class="nome"></label><br>
+                <label><input type="text" placeholder="Nome 3" class="nome"></label><br>
+                <label><input type="text" placeholder="Nome 4" class="nome"></label><br>
+                <label><input type="text" placeholder="Nome 5" class="nome"></label><br>
+                <label><input type="text" placeholder="Nome 6" class="nome"></label><br>
+
+                <!-- Campo da história -->
+                <label>
+                    <textarea id="mensagem" placeholder="História do grupo" rows="4" cols="50"></textarea>
+                </label><br>
+
+                <!-- Botão de envio -->
+                <button type="submit">Enviar</button>
             </form>
-            button></button>
         </div>
-        <button></button>
     </div>
+
+    <!-- Conectando o script -->
+    <script src="script.js"></script>
 </body>
 </html>
